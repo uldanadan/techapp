@@ -1,0 +1,12 @@
+@import '../../../assets/scss/global.scss';
+
+.dashboard {
+  padding: 40px 0;
+
+  &__box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px $shadow-color;
+    padding: 30px;
+  }
+}

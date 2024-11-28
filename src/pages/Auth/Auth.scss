@@ -1,0 +1,23 @@
+@import '../../assets/scss/global.scss';
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px $shadow-color;
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.login {
+  &__prompt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+  }
+}

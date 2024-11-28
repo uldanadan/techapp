@@ -1,0 +1,33 @@
+@import '../../../assets/scss/global.scss';
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.password {
+  position: relative;
+
+  &-toggle {
+    position: absolute;
+    right: 10px;
+    top: 70%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: $font-color-light;
+
+    &:hover {
+      color: red;
+    }
+  }
+}

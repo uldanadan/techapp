@@ -1,0 +1,41 @@
+@import '../../../assets/scss/global.scss';
+
+.application {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px $shadow-color;
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  &__file {
+    &-upload {
+      position: relative;
+      margin-bottom: 20px;
+    }
+
+    &-label {
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      color: #007bff;
+      gap: 5px;
+    }
+  }
+
+  .delete-icon {
+    color: $danger-color;
+    cursor: pointer;
+  }
+}

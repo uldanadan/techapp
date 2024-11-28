@@ -1,0 +1,23 @@
+@import '../../../assets/scss/global.scss';
+
+.app-list {
+  padding: 40px 0;
+
+  &__box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px $shadow-color;
+    padding: 30px;
+
+    &-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  .actions {
+    display: flex;
+    gap: 16px;
+  }
+}
